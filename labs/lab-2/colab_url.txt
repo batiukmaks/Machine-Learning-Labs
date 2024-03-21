@@ -1,0 +1,1 @@
+Colab: https://colab.research.google.com/github/batiukmaks/Machine-Learning-Labs/blob/main/labs/lab-2/ML_Lab_2.ipynb
