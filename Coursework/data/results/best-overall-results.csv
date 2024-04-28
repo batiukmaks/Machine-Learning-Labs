@@ -1,0 +1,8 @@
+Dataset,Model,F1,Accuracy,Precision,Recall,ROC AUC,Parameters
+Wisconsin: Original,SVC,0.9807432432432432,0.9824561403508771,0.9866666666666667,0.975609756097561,0.975609756097561,"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}"
+Wisconsin: SMOTE,SVC,0.9614864864864865,0.9649122807017544,0.9671794871794872,0.9565653190778483,0.9565653190778483,"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}"
+Wisconsin: SMOTE,Random Forest,0.9614864864864865,0.9649122807017544,0.9671794871794872,0.9565653190778483,0.9565653190778483,"{'bootstrap': False, 'criterion': 'gini', 'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 25}"
+Wisconsin: Random Oversampling,Random Forest,0.951575906889814,0.956140350877193,0.9605263157894737,0.9443701971266287,0.9443701971266286,"{'bootstrap': False, 'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 45}"
+Coimbra: Original,XGBoost,0.7078260869565217,0.7083333333333334,0.7214285714285715,0.7167832167832169,0.7167832167832168,"{'gamma': 0.3, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 80, 'objective': 'binary:logistic'}"
+Coimbra: SMOTE,XGBoost,0.75,0.75,0.7552447552447552,0.7552447552447552,0.7552447552447552,"{'gamma': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 80, 'objective': 'binary:logistic'}"
+Coimbra: Random Oversampling,Random Forest,0.7078260869565217,0.7083333333333334,0.7083333333333333,0.7097902097902098,0.7097902097902098,"{'bootstrap': True, 'criterion': 'gini', 'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 5}"
